@@ -8,11 +8,6 @@
 
 #include <stdlib.h>
 
-
-
-#include <stdio.h>
-
-
 int stu_atoi(const char *str)
 {
 
@@ -44,6 +39,5 @@ int stu_atoi(const char *str)
     if (str[0] == '-') {
         nbrs *= -1;
     }
-    printf("%d\n", nbrs);
     return (nbrs);
 }
