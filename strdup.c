@@ -23,4 +23,5 @@ char *stu_strdup(const char *src)
     }
     dest[i] = '\0';
     return (dest);
+    free(dest);
 }
