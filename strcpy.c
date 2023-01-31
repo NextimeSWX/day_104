@@ -6,8 +6,6 @@
  * description: strcpy.c
  */
 
-unsigned int stu_strlen (const char *str);
-
 char *stu_strcpy(char *dest, const char *src)
 {
     int i;
